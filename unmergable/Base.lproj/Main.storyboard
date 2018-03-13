@@ -19,33 +19,37 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Initial setup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKh-xx-zdV">
-                                <rect key="frame" x="16" y="20" width="206" height="53"/>
+                                <rect key="frame" x="16" y="64" width="206" height="41.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="44"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fWC-dU-fUe">
-                                <rect key="frame" x="16" y="75" width="343" height="175"/>
+                                <rect key="frame" x="16" y="121.5" width="343" height="128"/>
                                 <color key="backgroundColor" red="0.94901960780000005" green="0.27664291860000001" blue="0.065467879179999994" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="GGT-pd-Jpd"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VfX-h9-rdH">
-                                <rect key="frame" x="16" y="270" width="343" height="127"/>
+                                <rect key="frame" x="16" y="269.5" width="343" height="128"/>
                                 <color key="backgroundColor" red="0.94901960780000005" green="0.27664291860000001" blue="0.065467879179999994" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="VfX-h9-rdH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8af-vj-AYG"/>
-                            <constraint firstItem="fWC-dU-fUe" firstAttribute="top" secondItem="EKh-xx-zdV" secondAttribute="bottom" constant="2" id="8xL-a5-8eX"/>
+                            <constraint firstItem="fWC-dU-fUe" firstAttribute="top" secondItem="EKh-xx-zdV" secondAttribute="bottom" constant="16" id="8xL-a5-8eX"/>
                             <constraint firstItem="VfX-h9-rdH" firstAttribute="top" secondItem="fWC-dU-fUe" secondAttribute="bottom" constant="20" id="9Wp-8q-x80"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fWC-dU-fUe" secondAttribute="trailing" constant="16" id="JzU-u1-deF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VfX-h9-rdH" secondAttribute="trailing" constant="16" id="M0X-8j-8V9"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="EKh-xx-zdV" secondAttribute="trailing" constant="20" symbolic="YES" id="Wve-wf-Ye7"/>
                             <constraint firstItem="VfX-h9-rdH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Xt5-Fe-cg1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VfX-h9-rdH" secondAttribute="bottom" constant="270" id="eBE-3Q-I3n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="VfX-h9-rdH" secondAttribute="bottom" id="eBE-3Q-I3n"/>
                             <constraint firstItem="fWC-dU-fUe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lCL-9J-lkX"/>
                             <constraint firstItem="EKh-xx-zdV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="n5b-nf-WN1"/>
-                            <constraint firstItem="EKh-xx-zdV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qoV-Sp-s0c"/>
+                            <constraint firstItem="EKh-xx-zdV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="qoV-Sp-s0c"/>
+                            <constraint firstItem="VfX-h9-rdH" firstAttribute="height" secondItem="fWC-dU-fUe" secondAttribute="height" id="yWV-OO-xlM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
