@@ -22,6 +22,7 @@
 		C7A1C38520582C0C00199E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7A1C38820582C0C00199E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7A1C38A20582C0C00199E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A1C39020582E3000199E3C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		C7A1C37220582C0B00199E3C = {
 			isa = PBXGroup;
 			children = (
+				C7A1C39020582E3000199E3C /* README.md */,
 				C7A1C37D20582C0C00199E3C /* unmergable */,
 				C7A1C37C20582C0C00199E3C /* Products */,
 			);
@@ -277,7 +279,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = unmergable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.tomiwa.unmergable.unmergable;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.tomiwa.unmergable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,7 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = unmergable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.tomiwa.unmergable.unmergable;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.tomiwa.unmergable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
